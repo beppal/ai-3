@@ -70,17 +70,17 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     # 예)
      labels[0]: {
-       "texts": ["보리밥은 ", "열무김치와", "비벼먹으면 맛있습니다."],
+       "texts": ["보리밥은 ", "보리밥은 식이섬유·베타글루칸이 풍부해 혈당 조절과 장 건강에 도움을 주고", "열무김치와 비벼먹으면 맛있습니다."],
        "images": ["https://www.kfoodtimes.com/news/photo/202106/16351_27779_3517.png"],
        "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
      }, 
      labels[1]: {
-       "texts": ["비빔밥은 ", "참기름과 고추 넣어", "비벼먹으면 맛있습니다."],
+       "texts": ["비빔밥은 ", "단백질과 식이섬유 그리고 비타민이 풍부하여 ", "영양이 균형이 장 건강에 도움이 되며 맛있습니다."],
        "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/250px-Dolsot-bibimbap.jpg"],
        "videos": ["https://www.youtube.com/watch?v=8B0ZZlsQy3E&pp=ygUJ67mE67mU67Cl0gcJCQgKAYcqIYzv"]
      }, 
      labels[2]: {
-       "texts": ["콩밥은 ", "단백질이 많지만", "맛이 없습니다."],
+       "texts": ["콩밥은 ", "단백질이 매우 많아", "혈당안정효과와 포만감에 도움이 되지만 맛이 없습니다."],
        "images": ["https://img.khan.co.kr/lady/2025/07/07/news-p.v1.20250707.27a6276ff5f4483d8949f9b17ae3c3d2_Z1.png"],
        "videos": ["https://www.youtube.com/watch?v=oYFfWYPmVAI&pp=ygUT7L2p67ClIOunjOuTnOuKlOuylQ%3D%3D"]
      }, 
@@ -92,7 +92,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      }, 
 
      labels[4]: {
-       "texts": ["흰쌀밥 ", "가장 많이 소비되며", "가장 무난한 밥 종류 입니다. ."],
+       "texts": ["흰쌀밥 ", "탄수화물위주이기 때문에", "소화가 잘되고 빠른 에너지 공급에 좋습니다. ."],
        "images": ["https://wimg.heraldcorp.com/content/default/2019/06/20/20190620000665_0.jpg"],
        "videos": ["https://www.youtube.com/watch?v=fGMQhZjkGjU&pp=ygUH7IyA67ClIA%3D%3D"]
      }, 
