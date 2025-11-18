@@ -73,7 +73,30 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
        "texts": ["보리밥은 ", "열무김치와", "비벼먹으면 맛있습니다."],
        "images": ["https://www.kfoodtimes.com/news/photo/202106/16351_27779_3517.png"],
        "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
-     },  
+     }, 
+     labels[1]: {
+       "texts": ["비빔밥은 ", "참기름과 고추 넣어", "비벼먹으면 맛있습니다."],
+       "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/250px-Dolsot-bibimbap.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
+     }, 
+     labels[2]: {
+       "texts": ["콩밥은 ", "단백질이 많지만", "맛이 없습니다."],
+       "images": ["https://img.khan.co.kr/lady/2025/07/07/news-p.v1.20250707.27a6276ff5f4483d8949f9b17ae3c3d2_Z1.png"],
+       "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
+     }, 
+
+     labels[3]: {
+       "texts": ["현미밥은 ", " 비타민 B군, E군, 마그네슘, 칼륨등", "많은 영양소들이 있습니다."],
+       "images": ["https://m.health.chosun.com/site/data/img_dir/2021/12/10/2021121000944_0.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
+     }, 
+
+     labels[4]: {
+       "texts": ["흰쌀밥 ", "가장 많이 소비되며", "가장 무난한 밥 종류 입니다. ."],
+       "images": ["https://wimg.heraldcorp.com/content/default/2019/06/20/20190620000665_0.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=ZT2eLaYPQgg"]
+     }, 
+    
     # "짬뽕": {
     #   "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
